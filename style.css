@@ -1,0 +1,620 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    background-color: white;
+    /* Light Blue */
+}
+
+
+.container {
+    margin-top: 20px;
+    background: white;
+    /* Your desired background color */
+    padding: 20px;
+    border-radius: 15px;
+    /* Adjust the border-radius for rounded corners */
+    width: 80%;
+    /* Adjust the width as needed */
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    /* Add a subtle box shadow for depth */
+
+    /* Media query for smaller screens like phones */
+    @media (max-width: 767px) {
+        width: 98%;
+    }
+}
+
+
+h1,
+h2 {
+    color: #333333;
+    /* Green */
+}
+
+p {
+    font-size: 18px;
+}
+
+.navbar.navbar-light {
+    background: #F58B8F;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #333333;
+
+}
+
+.navbar-toggler-icon {
+    background-color: #F58B8F;
+    border-radius: 100%;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, .55);
+    border-color: rgba(0, 0, 0, .1);
+    border-radius: 100%;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+
+
+.navbar {
+    background-color: #E4F1A9;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #333;
+}
+
+.nav-link:hover {
+    transition: border-bottom 0.3s ease;
+    color: #000000; /* Change the color to your preferred hover color */
+}
+
+
+
+.focus-section,
+.play-section,
+.benefits-section {
+    margin-top: 30px;
+}
+
+.welcome_top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome_img {
+    /* Set the maximum dimensions for the container */
+    max-width: 100%;
+    max-height: 100%;
+    /* Ensure the image does not exceed its container's dimensions */
+    width: auto;
+    height: auto;
+}
+
+.welcome-img {
+    border-radius: 15px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media (max-width: 767px) {
+
+    /* Adjust styles for screens with a maximum width of 767px (phones) */
+
+    .welcome_img {
+        display: block;
+        text-align: center;
+    }
+}
+
+
+
+.description {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.welcome-description {
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.welcome-description .highlight {
+    font-weight: bold;
+    color: #007bff;
+    /* Blue color, you can adjust it as needed */
+}
+
+.welcome-description ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.welcome-description ul li {
+    margin-bottom: 8px;
+}
+
+.welcome-description br {
+    line-height: 1.2;
+}
+
+.welcome-img {
+    max-width: 100%;
+    /* Set the maximum width to 100% of its container */
+    max-height: 400px;
+    /* Set the maximum height as needed */
+    display: block;
+    /* To remove any default inline spacing */
+    margin: 0px;
+}
+
+
+
+/* Styles for larger screens */
+@media (min-width: 768px) {
+    .focus-section {
+        padding: 20px;
+        /* Adjust padding for larger screens */
+    }
+
+    #carouselExample img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #carouselExample span {
+        font-size: 18px;
+    }
+}
+
+/* Styles for smaller screens */
+@media (max-width: 767px) {
+    .focus-section {
+        /* Adjust padding or other styles for smaller screens */
+        padding: 10px;
+    }
+
+    #carouselExample img {
+        /* max-width: 100%; */
+        width: 77%;
+        height: auto;
+    }
+
+    #carouselExample span {
+        font-size: 2vh;
+    }
+}
+
+
+
+#what-we-focus {
+    text-align: center;
+}
+
+#power-of-play {
+    text-align: center;
+}
+
+#Family-Centered
+{
+    text-align: center;
+}
+
+#assessment-centered
+{
+    text-align: center;
+}
+.focus-section {
+    background-color: #F7D6D5;
+    /* Your desired lighter background color */
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.focus-description {
+    font-size: 18px;
+    /* Adjust font size as needed */
+    display: block;
+    margin-top: 10px;
+}
+
+/* Adjust images within the carousel */
+#carouselExample img {
+    border-radius: 10px;
+    /* Adjust the border-radius for rounded corners */
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Adjust the size of carousel control buttons on smaller screens */
+@media (max-width: 768px) {
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 5%;
+    }
+    .carousel-control-prev {
+        left: -3%;
+    }
+    
+    .carousel-control-next {
+        right: -3%;
+    }
+
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 40px;
+    /* Adjust the width as needed */
+    height: 40px;
+    /* Adjust the height as needed */
+    border-radius: 50%;
+    /* Make it round */
+    background: coral;
+    position: absolute;
+    opacity: 0.8;
+    /* Adjust the opacity if needed */
+}
+
+.carousel-control-prev {
+    left: -1%;
+    top: 34%;
+}
+
+.carousel-control-next {
+    right: -1%;
+    top: 34%;
+}
+
+.play-section {
+    background-color: #F7D6D5;
+    /* Your desired lighter background color */
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.play-description {
+    font-size: 18px;
+    /* Adjust font size as needed */
+    display: block;
+    margin-top: 10px;
+}
+
+/* Adjust images within the play carousel */
+#playCarousel img {
+    border-radius: 10px;
+    /* Adjust the border-radius for rounded corners */
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Adjust the size of carousel control buttons on smaller screens */
+@media (max-width: 768px) {
+    #playCarousel img {
+        width: 77%;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 5%;
+    }
+
+    .carousel-control-prev {
+        left: -3%;
+    }
+    
+    .carousel-control-next {
+        right: -3%;
+    }
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 40px;
+    /* Adjust the width as needed */
+    height: 40px;
+    /* Adjust the height as needed */
+    border-radius: 50%;
+    /* Make it round */
+    background: coral;
+    position: absolute;
+    opacity: 0.8;
+    /* Adjust the opacity if needed */
+}
+
+.carousel-control-prev {
+    left: -1%;
+    top: 34%;
+}
+
+.carousel-control-next {
+    right: -1%;
+    top: 34%;
+}
+
+/* Styles for the Family-Centered carousel */
+#familyCarousel img {
+    border-radius: 10px;
+    /* Adjust the border-radius for rounded corners */
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Adjust the size of carousel control buttons on smaller screens */
+@media (max-width: 768px) {
+    #familyCarousel img {
+        width: 77%;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 5%;
+    }
+
+    .carousel-control-prev {
+        left: -3%;
+    }
+
+    .carousel-control-next {
+        right: -3%;
+    }
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 40px;
+    /* Adjust the width as needed */
+    height: 40px;
+    /* Adjust the height as needed */
+    border-radius: 50%;
+    /* Make it round */
+    background: coral;
+    position: absolute;
+    opacity: 0.8;
+    /* Adjust the opacity if needed */
+}
+
+.carousel-control-prev {
+    left: -1%;
+    top: 34%;
+}
+
+.carousel-control-next {
+    right: -1%;
+    top: 34%;
+}
+
+.Family-Centered-section {
+    background-color: #F7D6D5;
+    /* Your desired lighter background color */
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.focus-description {
+    font-size: 18px;
+    /* Adjust font size as needed */
+    display: block;
+    margin-top: 10px;
+}
+
+#familyCarousel span {
+    font-size: 18px;
+}
+
+/* Assessment carousel */
+/* Styles for the Assessment-Centered section */
+.assessment-centered-section {
+    background-color: #F7D6D5;
+    /* Your desired lighter background color */
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+#assessmentsCarousel img {
+    border-radius: 10px;
+    /* Adjust the border-radius for rounded corners */
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Adjust the size of carousel control buttons on smaller screens */
+@media (max-width: 768px) {
+    #assessmentsCarousel img {
+        width: 77%;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 5%;
+    }
+
+    .carousel-control-prev {
+        left: -3%;
+    }
+
+    .carousel-control-next {
+        right: -3%;
+    }
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    opacity: 0.8;
+}
+
+.carousel-control-prev {
+    left: -1%;
+    top: 34%;
+}
+
+.carousel-control-next {
+    right: -1%;
+    top: 34%;
+}
+
+.focus-description {
+    font-size: 18px;
+    display: block;
+    margin-top: 10px;
+}
+
+#assessmentsCarousel span {
+    font-size: 18px;
+}
+/* Adjust the position of carousel control buttons on smaller screens */
+@media (max-width: 768px) {
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 10%;
+        height: 10%;
+        border-radius: 50%;
+        background: coral;
+        position: absolute;
+        opacity: 0.8;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .carousel-control-prev {
+        left: 0;
+    }
+
+    .carousel-control-next {
+        right: 0;
+    }
+}
+
+
+
+
+/* benefits carousel */
+/* Styles for the Benefits carousel */
+.benefits-section {
+    background-color: #F7D6D5;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+#benefitsCarousel img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto auto;
+    max-height: 200px;
+}
+
+/* Adjust the size of carousel control buttons on smaller screens */
+@media (max-width: 768px) {
+    #benefitsCarousel img {
+        width: auto;
+        max-height: 120px; /* Set a smaller maximum height on smaller screens */
+    }
+
+    #benefitsCarousel .carousel-control-prev,
+    #benefitsCarousel .carousel-control-next {
+        width: 10%;
+        height: 10%;
+        border-radius: 50%;
+        background: coral;
+        position: absolute;
+        opacity: 0.8;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    #benefitsCarousel .carousel-control-prev {
+        left: 0;
+    }
+
+    #benefitsCarousel .carousel-control-next {
+        right: 0;
+    }
+}
+
+#benefitsCarousel .carousel-control-next,
+#benefitsCarousel .carousel-control-prev {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    opacity: 0.8;
+    top: 34%;
+}
+
+#benefitsCarousel .carousel-control-prev {
+    left: -1%;
+}
+
+#benefitsCarousel .carousel-control-next {
+    right: -1%;
+}
+
+.focus-description {
+    font-size: 18px;
+    display: block;
+    margin-top: 10px;
+}
+
+#benefitsCarousel span {
+    font-size: 18px;
+}
+.footer .container2 {
+    margin-top: 20px;
+    background: #F58B8F;
+    /* Your desired background color */
+    padding: 20px;
+    /* Adjust the border-radius for rounded corners */
+    width: 80%;
+    /* Adjust the width as needed */
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.footer .container2 a img {
+    max-width: 30px; /* Set your desired max-width for social media icons */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+}
