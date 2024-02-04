@@ -229,6 +229,7 @@ p {
     font-size: 18px;
     display: block;
     margin-top: 10px;
+    text-align: center;
 }
 
 #focusCarousel img,
