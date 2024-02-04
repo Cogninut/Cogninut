@@ -80,7 +80,8 @@ p {
 
 .nav-link:hover {
     transition: border-bottom 0.3s ease;
-    color: #000000; /* Change the color to your preferred hover color */
+    color: #000000;
+    /* Change the color to your preferred hover color */
 }
 
 
@@ -141,7 +142,7 @@ p {
 
 .welcome-description .highlight {
     font-weight: bold;
-    color: #007bff;
+    color: #71d2ef;
     /* Blue color, you can adjust it as needed */
 }
 
@@ -207,23 +208,17 @@ p {
 
 
 
-#what-we-focus {
+#what-we-focus,
+#power-of-play,
+#Family-Centered,
+#assessment-centered,
+#benefits {
     text-align: center;
+    font-weight: bolder;
 }
 
-#power-of-play {
-    text-align: center;
-}
 
-#Family-Centered
-{
-    text-align: center;
-}
-
-#assessment-centered
-{
-    text-align: center;
-}
+/* Focus Section */
 .focus-section {
     background-color: #F7D6D5;
     /* Your desired lighter background color */
@@ -256,10 +251,11 @@ p {
     .carousel-control-next {
         width: 5%;
     }
+
     .carousel-control-prev {
         left: -3%;
     }
-    
+
     .carousel-control-next {
         right: -3%;
     }
@@ -329,7 +325,7 @@ p {
     .carousel-control-prev {
         left: -3%;
     }
-    
+
     .carousel-control-next {
         right: -3%;
     }
@@ -500,8 +496,10 @@ p {
 #assessmentsCarousel span {
     font-size: 18px;
 }
+
 /* Adjust the position of carousel control buttons on smaller screens */
 @media (max-width: 768px) {
+
     .carousel-control-prev,
     .carousel-control-next {
         width: 10%;
@@ -548,7 +546,8 @@ p {
 @media (max-width: 768px) {
     #benefitsCarousel img {
         width: auto;
-        max-height: 120px; /* Set a smaller maximum height on smaller screens */
+        max-height: 120px;
+        /* Set a smaller maximum height on smaller screens */
     }
 
     #benefitsCarousel .carousel-control-prev,
@@ -600,6 +599,7 @@ p {
 #benefitsCarousel span {
     font-size: 18px;
 }
+
 .footer .container2 {
     margin-top: 20px;
     background: #F58B8F;
@@ -614,7 +614,9 @@ p {
 }
 
 .footer .container2 a img {
-    max-width: 30px; /* Set your desired max-width for social media icons */
-    height: auto; /* Maintain aspect ratio */
+    max-width: 30px;
+    /* Set your desired max-width for social media icons */
+    height: auto;
+    /* Maintain aspect ratio */
     border-radius: 10px;
 }
