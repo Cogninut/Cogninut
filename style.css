@@ -260,14 +260,14 @@ p {
         max-height: 180px;
         width: auto;
     }
-    
+
     .carousel-control-prev {
-        width: 5% ;
+        width: 5%;
         left: -5% !important;
     }
-    
+
     .carousel-control-next {
-        width: 5% ;
+        width: 5%;
         right: -5% !important;
     }
 
@@ -302,6 +302,17 @@ p {
 /* Carousels Ended */
 
 /* Footer */
+.social-img {
+    width: 50px; 
+    height: auto;
+    border-radius: 50%; 
+    transition: transform 0.3s ease; 
+}
+
+.social-img:hover {
+    transform: scale(1.2); 
+}
+
 .footer .container2 {
     margin-top: 20px;
     background: #F58B8F;
